@@ -1,0 +1,157 @@
+Name: Kayla A. Cuenco
+Subject: Web Technologies 
+ 
+ACTIVITY 1: Basic Output 
+ 
+Task: Display your name and course. 
+ 
+echo "Name: Kayla A. Cuenco <br>"; 
+<?php ?> 
+print "Course: BSIT"; 
+ 
+Guide Questions: 
+ 
+1.	What symbol is used to end a PHP statement?  
+-	semicolon(;) 
+ 
+2.	Which is faster: echo or print? 
+-	echo is faster than print.  
+-	Because echo has no return value, whereas print always returns 1, creating a small performance overhead. Additionally, echo can take multiple parameters, while print can only take one. 
+ 
+ACTIVITY 2: Multiple Outputs 
+ 
+Task: Display 3 different messages. 
+ 
+<?php echo "Welcome<br>"; echo "This is PHP<br>"; echo "Enjoy coding!"; 
+ 
+ 
+$message = "Happy Learning";  
+$Message = "Case Sensitive";    
+$year = 2024;     
+ 
+ACTIVITY 3: Declaring Variables 
+ 
+Task: Create variables and display them. 
+ 
+<?php $name "Kayla"; Sage = 22; echo "Name: Sname, "<br>"; echo "Age: Sage; ?>         <?php  
+  $name = "Hopie";   $age = 22;   echo "Name: " . $name . "<br>";    echo "Age: " . $age;  
+ 
+ACTIVITY 4: Variable Rules 
+ 
+Task: Fix the errors in the code:  
+ 
+<?php $Age 18 echo $age; ?> $1name "Hopie": 
+ 
+<?php  $age = 22;  echo $age;  
+?> 
+$name1 = "Hopie"; 
+ 
+Expected Fix: 
+ 
+Variable names should not start with numbers 
+Changed $1name to $name1 
+ 
+Case sensitivity matters. 
+Changed $Age to $age so it matches the echo statement, or vice-versa. In PHP, all variables are case-sensitive. 
+ 
+PART 3: Operators 
+ 
+Types of Operators 
+ 
+Arithmetic: Used with numeric values to perform common mathematical operations.  
++ (Addition) 
+ - (Subtraction) 
+ * (Multiplication) 
+/ (Division: yields a float) 
+// (Floor Division: rounds down to nearest whole number) 
+% (Modulus: returns division remainder) 
+** (Exponentiation: raises a number to a power) 
+ 
+Assignment: Used to assign values to variables. 
+= (Simple assignment: x = 5) 
++= (Add and assign: x += 3 is x = x + 3) 
+-= (Subtract and assign) 
+*= (Multiply and assign) 
+/= (Divide and assign) 
+ 
+Comparison: Compares two values and returns a boolean result (True or False). 
+== (Equal to) 
+!= (Not equal to) 
+> (Greater than) 
+< (Less than) 
+>= (Greater than or equal to) 
+<= (Less than or equal to) 
+ 
+ACTIVITY 5: Arithmetic Operators 
+ 
+Task: Perform operations. 
+ 
+<?php 5a = 10 5b = 3 echo "Addition: (5a + 5b) "<br>"; echo "Subtraction: ($a$b)."<br>"; echo "Multiplication:" (Sa$b). "<br>"; echo "Division." ($a/Sb); 
+ 
+<?php 
+$a = 10; 
+$b = 3; 
+ 
+echo "Addition: " . ($a + $b) . "<br>"; echo "Subtraction: " . ($a - $b) . "<br>"; echo "Multiplication: " . ($a * $b) . "<br>"; echo "Division: " . ($a / $b); 
+?> 
+ 
+Question: What will be the output? 
+ 
+The Output: 
+The number is:0 
+The number is:1 
+The number is:2 
+The number is:3 
+The number is:4 
+The number is:5 
+The number is:6 
+The number is:7 
+The number is:8 
+The number is:9 
+The number is:10 
+ 
+ACTIVITY 6: Assignment Operators 
+ 
+Task: Predict the output. 
+ 
+<?php 
+$x = 5; $x += 3; echo $x; 
+?> 
+ 
+Question: What will be the output? 
+The output of the PHP code will be:8 
+ 
+ACTIVITY 7: Comparison Operators 
+ 
+Task: Check conditions. 
+ 
+<?php 5b = 5 Sa = 10 
+var dump($a> $b); var_dump($a= $b); 
+?> 
+ 
+The Output: 
+ 
+bool(true) bool(false) 
+ 
+ 
+MINI PROJECT 
+ 
+Task: Create a simple calculator. 
+ 
+<?php $num18: $num24 echo "Sum:" ($num1 Snum2) "<br>"; echo "Difference: (Snum1 Snum2). "<br>"; echo "Product" ($num1 Snum2). "<br>"; echo "Quotient:" (Snum1/$num2); ?> 
+ 
+  
+ 
+<?php 
+$num1 = 10; 
+$num2 = 4; 
+ 
+echo "Sum: " . ($num1 + $num2) . "<br>"; echo "Difference: " . ($num1 - $num2) . "<br>"; echo "Product: " . ($num1 * $num2) . "<br>"; echo "Quotient: " . ($num1 / $num2) . "<br>"; 
+?> 
+ 
+Output: 
+Sum: 12 
+Difference: 4 
+Product: 32 
+Division: 2 
+ 
